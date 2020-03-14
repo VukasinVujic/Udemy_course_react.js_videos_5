@@ -12,7 +12,7 @@ const VideoDetail = ({video}) => {
     return (
         <div>
         <div className="ui embed">
-            <iframe src={videoSrc} frameBorder="0" />
+            <iframe title="video player" src={videoSrc} frameBorder="0" />
         </div>
 
             {/* ui segment just make a box around elements */}
